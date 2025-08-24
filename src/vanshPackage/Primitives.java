@@ -10,5 +10,9 @@ public class Primitives {
         long largeInteger =34556778989890L;
         boolean check=true;
 
+        int a=234_000_000;
+        System.out.println(a);
+
+
     }
 }
