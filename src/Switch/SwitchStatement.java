@@ -2,7 +2,7 @@ package Switch;
 
 import java.util.Scanner;
 
-public class SwtichStatement {
+public class SwitchStatement {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter Fruit name:");
