@@ -11,4 +11,6 @@ public class PassingInput {
     static void change(int[] arr){
         arr[0] = 99;
     }
+
+//    arrays are mutable and string are immutable in java
 }
