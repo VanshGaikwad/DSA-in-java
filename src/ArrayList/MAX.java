@@ -1,6 +1,6 @@
 package ArrayList;
 
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 
 public class MAX {
@@ -9,9 +9,13 @@ public class MAX {
         System.out.println("Array: "+Arrays.toString(arr));
         System.out.println("Max element: "+max(arr));
         System.out.println("Max element between range(3,4): "+maxBetRange(arr,3,4 ));
+//        reversing array
+        reverseArray(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
     static int max(int[] arr){
+
         int maximumElement =arr[0];
         for (int i =0; i< arr.length;i++){
             maximumElement = Math.max(maximumElement,arr[i]);
@@ -26,5 +30,17 @@ public class MAX {
         }
 
         return maximumElement;
+    }
+
+    static  void reverseArray(int arr[]){
+        int j= arr.length-1;
+        int i=0;
+        while( i<j){
+            int temp= arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
     }
 }
