@@ -17,6 +17,6 @@ public class FloorProg {
             else start = mid + 1;
         }
 
-        return (start < arr.length) ? arr[end] : -1;
+        return (end >= 0) ? arr[end] : -1;
     }
 }
