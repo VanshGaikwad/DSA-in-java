@@ -4,7 +4,7 @@ public class CelingProg {
 //    celing means smallest number of greater or eaual to target
 public static void main(String[] args) {
     int[] arr = {2,3,5,9,14,16,18};
-    int target = 15;add
+    int target = 15;
     System.out.println("Celing :"+ ceiling(arr,target));
 }
 
