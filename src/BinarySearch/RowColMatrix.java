@@ -3,7 +3,7 @@ package BinarySearch;
 import java.util.Arrays;
 
 public class RowColMatrix {
-//    time complexity O(2N);
+//    time complexity O(2N) or O(N);
     public static void main(String[] args) {
         int[][] arr = {{10,20,30,40},{15,25,35,45},{28,29,37,49},{33,34,38,50}};
         int target = 37;
