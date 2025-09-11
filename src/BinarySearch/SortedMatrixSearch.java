@@ -9,7 +9,7 @@ public class SortedMatrixSearch {
                 {4,5,6},
                 {7,8,9}
         };
-        int target = 2;
+        int target = 3;
         System.out.println(Arrays.toString(search(arr,target)));
     }
 //    search in row provided between the columns provided
